@@ -1,12 +1,20 @@
 
 nav ul li{
-    float: left;
+   
     list-style: none;
-    width: 25%;
-    background-color: beige;
+    padding: 5px;
+    margin: 5px;
+    float: left;
     font-size: 20px;
     height: 40px;
     
+}
+
+nav#navbar ul.navigation {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 a {
@@ -21,46 +29,46 @@ i {
 
 .fa-facebook {
     color: blue;
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 2%;
 }
 
 .fa-whatsapp{
     color: green;
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 4%;
 }
 
 .fa-linkedin{
     color: skyblue;
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 6%;
 }
 
 .fa-x-twitter{
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 8%;
 }
 
 .fa-github{
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 10%;
 }
 
 .fa-envelope{
-    position: fixed;
+    position: absolute;
     bottom: 5px;
     right: 12%;
 }
 
 #contact{
-    background-color: rgb(107, 104, 104);
-    
+    background: linear-gradient(rgb(104, 104, 250),white);
+    position: relative;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -76,10 +84,11 @@ button{
 
 #myBody{
     clear: left;
+    font-size: 20px;
 }
 
 #about{
-    background-color: rgb(107, 104, 104);
+    background: linear-gradient(rgb(104, 104, 250),white);;
    
     padding: 10px;
     margin-top: 10px;
@@ -87,7 +96,7 @@ button{
 }
 
 #portfolio{
-    background-color: rgb(107, 104, 104);
+    background: linear-gradient(rgb(104, 104, 250),white);
     
     padding: 10px;
     margin-top: 10px;
@@ -95,8 +104,8 @@ button{
 }
 
 #home{
-    background-color: rgb(107, 104, 104);
-    
+    background: linear-gradient(rgb(104, 104, 250),white);
+    clear: left;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -104,4 +113,30 @@ button{
 
 h2{
     text-align: center;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/236x/85/bc/71/85bc71f834cf1f45e66967b30c954bf3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+img{
+    float: left;
+    width: 200px;
+    margin: 0 40px 10px 0;
+}
+
+div#virtual-assistance{
+    clear: left;
+}
+
+hr{
+    color: black;
+    background-color: black;
 }
