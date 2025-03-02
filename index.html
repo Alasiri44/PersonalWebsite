@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f18768191b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title>Personal Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>               
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="myBody">
+        <div id="home">
+            <h1>Austin Pamba</h1>
+            <p>"Hi, I'm Austin, a tech enthusiast passionate about software development, 
+                mechanical engineering, and innovation. I enjoy coding, solving complex problems, 
+                and leveraging technology to create impactful solutions. 
+                Welcome to my personal space!"</p>
+        </div>
+        <div id="about">
+            <h2>About me</h2>
+            <p>I am currently pursuing a Bachelor of Science in Mechanical Engineering 
+                at Jomo Kenyatta University of Agriculture and Technology (JKUAT). 
+                I have a strong background in software development, virtual assistance, 
+                and technical problem-solving. I am skilled in Flutter, Node.js, MySQL, and Python, and I have participated in hackathons 
+                and collaborative projects to sharpen my expertise."</p>
+        </div>
+        <div id="portfolio">
+            <h2>My portfolio</h2>
+            <p>"I have experience in software development, mechanical engineering, and project management. Some of my key skills include:"
+
+                <ul>
+                    <li>Software Development
+                        <ul>
+                            <li>Flutter </li>
+                            <li>Node.js </li>
+                            <li>MySQL</li>
+                            <li> Python</li>
+                        </ul>
+                        
+                    </li>
+                    <li>Virtual Assistance
+                        <ul>
+                            <li>CRM tools</li>
+                            <li>Google Workspace</li>
+                            <li>Administrative support</li>
+                        </ul>
+                    </li>
+                </ul>             
+                "Some of my notable projects include:"
+                <ul>
+                    <li>ErrandEase: 
+                        <p>A project designed to simplify errands for users</p>
+                    </li>
+                    <li>Telemedicine App: 
+                        <p>A platform connecting patients with doctors remotely</p>
+                    </li>
+                    <li>Hackathon Projects: 
+                        <p>Collaborative software development challenges</p>
+                    </li>
+                </ul>                
+                </p>
+        </div>
+        
+        <div id="contact">
+            <h2>Contact me</h2>
+            <form action="submit" method="POST">
+                <label for="fullname">Name</label> <br>
+                <input type="text" id="fullname" name="fullName" required> <br> <br>
+
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email" required><br> <br>
+
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="4" cols="30" ></textarea><br> <br>
+                
+                <button id="submit-button" type="submit">Submit</button>
+            </form>
+
+            <div id="icons">
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="www.twitter.com">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

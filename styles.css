@@ -1,0 +1,107 @@
+
+nav ul li{
+    float: left;
+    list-style: none;
+    width: 25%;
+    background-color: beige;
+    font-size: 20px;
+    height: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+i {
+    color: black;
+    padding: 2px;
+    
+    
+}
+
+.fa-facebook {
+    color: blue;
+    position: fixed;
+    bottom: 5px;
+    right: 2%;
+}
+
+.fa-whatsapp{
+    color: green;
+    position: fixed;
+    bottom: 5px;
+    right: 4%;
+}
+
+.fa-linkedin{
+    color: skyblue;
+    position: fixed;
+    bottom: 5px;
+    right: 6%;
+}
+
+.fa-x-twitter{
+    position: fixed;
+    bottom: 5px;
+    right: 8%;
+}
+
+.fa-github{
+    position: fixed;
+    bottom: 5px;
+    right: 10%;
+}
+
+.fa-envelope{
+    position: fixed;
+    bottom: 5px;
+    right: 12%;
+}
+
+#contact{
+    background-color: rgb(107, 104, 104);
+    
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    
+}
+
+#myBody{
+    clear: left;
+}
+
+#about{
+    background-color: rgb(107, 104, 104);
+   
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio{
+    background-color: rgb(107, 104, 104);
+    
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home{
+    background-color: rgb(107, 104, 104);
+    
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+}
