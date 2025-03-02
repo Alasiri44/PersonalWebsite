@@ -129,7 +129,9 @@ input{
 img{
     float: left;
     width: 200px;
+    height: 200px;
     margin: 0 40px 10px 0;
+    border-radius: 5px;
 }
 
 div#virtual-assistance{
@@ -139,4 +141,8 @@ div#virtual-assistance{
 hr{
     color: black;
     background-color: black;
+}
+
+.subportfolio{
+    margin: 0 0 50px 0;
 }
