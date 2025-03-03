@@ -151,9 +151,13 @@ hr{
 
 img.myProfile{
     border-radius: 80px;
+    
 }
 
 #home p{
     clear: left;
-    
+    align-items: start;
+    display: block;
+    width: 50%;
+
 }
